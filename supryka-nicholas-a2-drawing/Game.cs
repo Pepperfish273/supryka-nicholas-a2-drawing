@@ -11,14 +11,15 @@ namespace Game10003
     public class Game
     {
         // Place your variables here:
-
+        Color beige = new Color(190, 175, 135);
 
         /// <summary>
         ///     Setup runs once before the game loop begins.
         /// </summary>
         public void Setup()
         {
-
+            Window.SetTitle("Map Discovery");
+            Window.SetSize(400, 400);
         }
 
         /// <summary>
@@ -26,7 +27,7 @@ namespace Game10003
         /// </summary>
         public void Update()
         {
-
+            Window.ClearBackground(beige);
         }
     }
 }
