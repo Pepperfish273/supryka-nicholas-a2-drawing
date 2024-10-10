@@ -41,47 +41,47 @@ namespace Game10003
 
             Draw.LineSize = 0;
             Draw.FillColor = beige;
-            //Top Left
+            //Top Left Ok
             if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
             {
                 Draw.Square(squarePos1, 132);
             }
-            //Top Middle
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Top Middle Ok
+            if ((Input.GetMouseX() < 132) || (Input.GetMouseX() > 264) || (Input.GetMouseY() > 132))
             {
                 Draw.Square(squarePos2, 132);
             }
-            //Top Right
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Top Right Ok
+            if ((Input.GetMouseX() < 264) || (Input.GetMouseY() > 132))
             {
                 Draw.Square(squarePos3, 132);
             }
-            //Middle Left
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Middle Left Ok
+            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() < 132) || (Input.GetMouseY() > 264))
             {
                 Draw.Square(squarePos4, 132);
             }
-            //Middle Middle
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Middle Middle Ok
+            if ((Input.GetMouseX() < 132) || (Input.GetMouseX() > 264) || (Input.GetMouseY() < 132)|| (Input.GetMouseY() > 264))
             {
                 Draw.Square(squarePos5, 132);
             }
-            //Middle Right
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Middle Right Ok
+            if ((Input.GetMouseX() < 264) || (Input.GetMouseY() < 132) || (Input.GetMouseY() > 264))
             {
                 Draw.Square(squarePos6, 132);
             }
-            //Bottom Left
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Bottom Left Ok
+            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() < 264))
             {
                 Draw.Square(squarePos7, 132);
             }
-            //Bottom Middle
-            if ((Input.GetMouseX() > 132) || (Input.GetMouseY() > 132))
+            //Bottom Middle Ok
+            if ((Input.GetMouseX() < 132) || (Input.GetMouseX() > 264) || (Input.GetMouseY() < 264))
             {
                 Draw.Square(squarePos8, 132);
             }
-            //Bottom Right
+            //Bottom Right Ok
             if ((Input.GetMouseX() < 264) || (Input.GetMouseY() < 264))
             {
                 Draw.Square(squarePos9, 132);
